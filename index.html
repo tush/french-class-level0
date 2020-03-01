@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <title>Tushar French Class</title>
+  </head>
+  <body>
+    <div id="app">
+
+        <ol>
+            <li v-for="todo in todos">
+              {{ todo.text }}
+            </li>
+          </ol>
+
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                <th scope="col">#</th>
+                <th scope="col">Question</th>
+                <th scope="col">Answer</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="dataItem in dataList">
+                    <th scope="row">1</th>
+                    <td>
+                        <p class="lead">{{dataItem.question.french}}</p>
+                        <p>{{dataItem.question.english}}</p>
+                        <p>{{dataItem.question.pronunciation}}</p>
+                    </td>
+                    <td>
+                        <p class="lead">{{dataItem.answer.french}}</p>
+                        <p>{{dataItem.answer.english}}</p>
+                        <p>{{dataItem.answer.pronunciation}}</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    <!-- <div id="like_button_container"></div> -->
+    <h1>Tushar's French Class</h1>
+    <h2>Qui Es-Tu (Who are you?)</h2>
+
+    <table class="table">
+    <thead class="thead-light">
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">Question</th>
+        <th scope="col">Answer</th>
+        <th scope="col">Pronounciation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>
+                <p class="lead">Comment t'appelles-tu?</p>
+                <p>What's your name?</p>
+                <p>को मे ता पेल तू ?</p>
+            </td>
+            <td>
+                <p class="lead">Je m'appelle Tushar</p>
+                <p>My name is Tushar</p>
+                <p>को मे ता पेल तू ?</p>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>
+                <p class="lead">Tu as quel age?</p>
+                <p>How old are you?</p>
+                <p>को मे ता पेल तू ?</p>
+            </td>
+            <td>
+                <p class="lead">J'age 40</p>
+                <p>My age is 40</p>
+            </td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>
+                <p class="lead">D'ou viens-tu?</p>
+                <p>Where do you come from?</p>
+            </td>
+            <td>
+                <p class="lead">Je viens de Indie</p>
+                <p>I am from India</p>
+            </td>
+            <td>@twitter</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>
+                <p class="lead">Quelle est ta nationalite?</p>
+                <p>What is your nationality?</p>
+            </td>
+            <td>
+                <p class="lead">Je suis Indian</p>
+                <p>I am Indian</p>
+            </td>
+            <td>@twitter</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>
+                <p class="lead">Quelle est ta profession?</p>
+                <p>What is your profession?</p>
+            </td>
+            <td>
+                <p class="lead">Je travaille en informatique</p>
+                <p>I work in IT</p>
+            </td>
+            <td>@twitter</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>
+                <p class="lead">Tu habites ou?</p>
+                <p>Where do you live?</p>
+            </td>
+            <td>
+                <p class="lead">Je habite'A Etterbeek</p>
+                <p>I live in Etterbeek</p>
+            </td>
+            <td>@twitter</td>
+        </tr>
+    </tbody>
+    </table>
+
+
+
+
+
+    <h2>Salut ca va? (Hello, How are you?)</h2>
+
+    <table class="table">
+    <thead class="thead-light">
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">Question</th>
+        <th scope="col">Answer</th>
+        <th scope="col">Pronounciation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>
+                <p class="lead">Bonjour madame</p>
+                <p>Hello Madam</p>
+            </td>
+            <td>
+                <p class="lead">Bonjour monsieur</p>
+                <p>Hello Sir</p>
+            </td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>
+                <p class="lead">Vous allez bien</p>
+                <p>Your are fine?</p>
+            </td>
+            <td>
+                <p class="lead">Tres bin, merci!</p>
+                <p>Very well, Thank you!</p>
+            </td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>
+                <p class="lead">Bonne journee les enfants!</p>
+                <p>Have a nice day kids!</p>
+            </td>
+            <td>
+                <p class="lead"></p>
+                <p></p>
+            </td>
+            <td>@twitter</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>
+                <p class="lead">Salut Manon! Tu vas bien?</p>
+                <p>Hi Manon! You're okay?</p>
+            </td>
+            <td>
+                <p class="lead">Salut Alice! Oui, ca va, et toi?</p>
+                <p>Hi Alice! Yes I'm fine and you?</p>
+            </td>
+            <td>@twitter</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>
+                <p class="lead">Bonne soiree, au revoir!</p>
+                <p>Good evening, goodbye!</p>
+            </td>
+            <td>
+                <p class="lead">Au revoir monsieur, a bientot</p>
+                <p>goodbye sir, see you soon</p>
+            </td>
+            <td>@twitter</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>
+                <p class="lead">je serre la main ou je fais la bise?</p>
+                <p>I shake my hand or kiss?</p>
+            </td>
+            <td>
+                <p class="lead">Je habite'A Etterbeek</p>
+                <p>I live in Etterbeek</p>
+            </td>
+            <td>@twitter</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>
+                <p class="lead">je parle</p>
+                <p>I speak</p>
+            </td>
+            <td>
+                <p class="lead">je parle english, hindi et marathi</p>
+                <p>i speak english, hindi and marathi</p>
+            </td>
+            <td>@twitter</td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    
+    
+    <!--
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="data.js"></script>
+    <script src="main-react.js"></script>
+    -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="data.js"></script>
+    <script src="main-vue.js"></script>
+</body>
+</html>
