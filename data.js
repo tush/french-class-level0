@@ -240,6 +240,212 @@ const classCommunication = [
             pronunciation: "एक्रिवे"
         }
     },
+
+
+
+    {
+        question: {
+            french: "merci beaucoup",
+            english: "thank you",
+            pronunciation: "रिपीटे"
+        },
+        answer: {
+            french: "grenouilles",
+            english: "frog",
+            pronunciation: "एक्रिवे"
+        }
+    },
+    {
+        question: {
+            french: "chambre",
+            english: "room",
+            pronunciation: "रिपीटे"
+        },
+        answer: {
+            french: "mer",
+            english: "river",
+            pronunciation: "एक्रिवे"
+        }
+    },
+    {
+        question: {
+            french: "au revoir",
+            english: "goodbye",
+            pronunciation: "रिपीटे"
+        },
+        answer: {
+            french: "gâteau",
+            english: "cake",
+            pronunciation: "एक्रिवे"
+        }
+    },
+    {
+        question: {
+            french: "livres",
+            english: "book",
+            pronunciation: "रिपीटे"
+        },
+        answer: {
+            french: "cahier",
+            english: "(writing) book",
+            pronunciation: "एक्रिवे"
+        }
+    },
+    {
+        question: {
+            french: "heures",
+            english: "hours",
+            pronunciation: "रिपीटे"
+        },
+        answer: {
+            french: "manger",
+            english: "eat",
+            pronunciation: "एक्रिवे"
+        }
+    },
+    {
+        question: {
+            french: "élève",
+            english: "student",
+            pronunciation: "रिपीटे"
+        },
+        answer: {
+            french: "lumière",
+            english: "light",
+            pronunciation: "एक्रिवे"
+        }
+    },
+    {
+        question: {
+            french: "enfants",
+            english: "children",
+            pronunciation: "रिपीटे"
+        },
+        answer: {
+            french: "apprendre",
+            english: "to learn",
+            pronunciation: "एक्रिवे"
+        }
+    },
+    {
+        question: {
+            french: "apporter",
+            english: "to bring",
+            pronunciation: "रिपीटे"
+        },
+        answer: {
+            french: "chaise",
+            english: "chairs",
+            pronunciation: "एक्रिवे"
+        }
+    },
+    {
+        question: {
+            french: "plage",
+            english: "beach",
+            pronunciation: "रिपीटे"
+        },
+        answer: {
+            french: "domir",
+            english: "to sleep",
+            pronunciation: "एक्रिवे"
+        }
+    },
+    {
+        question: {
+            french: "chauffer",
+            english: "to drive",
+            pronunciation: "रिपीटे"
+        },
+        answer: {
+            french: "repas",
+            english: "meal",
+            pronunciation: "एक्रिवे"
+        }
+    },
+    {
+        question: {
+            french: "carte du monde",
+            english: "world map",
+            pronunciation: "रिपीटे"
+        },
+        answer: {
+            french: "girls",
+            english: "les filles",
+            pronunciation: "एक्रिवे"
+        }
+    },
 ]
 window.classCommunication = classCommunication;
 
+
+
+
+
+
+
+
+const introduceMyself = [
+    {
+        french: "Bonjour",
+        english: "Hello",
+        pronunciation: "बोन्जोर"
+    },
+    {
+        french: "Je me présente : ",
+        english: "I introduce myself",
+        pronunciation: "जे मी प्रेझा"
+    },
+    {
+        french: "je m’appelle Tushar Wadekar et j’ai 40 ans.",
+        english: "my name is Tushar Wadekar and I am 40 years old",
+        pronunciation: "जे मा पेल तुषार वाडेकर ए जेआ कॅरॉन्ट आ"
+    },
+    {
+        french: "je travaille comme consultant informatique pour banque",
+        english: "I work as an IT consultant for a bank",
+        pronunciation: "जे थ्रा वाय कोम कॉन्सोलतो इन्फॉर्मटिक पौर बौन्क"
+    },
+    {
+        french: "Je suis marié et j’ai deux enfants. ",
+        english: "I am married and have two children",
+        pronunciation: "जे स्वी मारिए ए जेए दुज आनफा "
+    },
+    {
+        french: "Ma femme s’appelle Pallavi,",
+        english: "My wife's name is Pallavi",
+        pronunciation: "मा फेम सा पेल पल्लवी"
+    },
+    {
+        french: "ma fille ainée s’appelle Swaroopa, et la petite dernière se prénomme Niya.",
+        english: "my eldest daughter is Swaroopa, and the youngest is Niya",
+        pronunciation: "मा फिल एन सा पेल स्वरूपा, ए ला पेटिट देरनेर स प्रेनोम निया"
+    },
+    {
+        french: "Mes parents sont à la retraite depuis plusieurs années.",
+        english: "My parents have been retired for several years",
+        pronunciation: "मे पैरा सोंत आ ला रुतरेत दु प्यु प्लुसेआ नीस"
+    },
+    {
+        french: "Mon père, Ratnakar, était ingénieur et ma mère, Vijaya, est une femme au foyer",
+        english: "My father, Ratnakar, was an engineer and my mother, Vijaya, is a housewife",
+        pronunciation: "मौ पेर रत्नाकर एटे आनजेनीअर ए मौ मेर विजया ऐट उन फाम उ फॉयेर"
+    },
+    {
+        french: "Ah, oui, j'ai oublié: j'ai une petite sœur nommée Nisha",
+        english: "Ah, yes, I forgot: I have a little sister named Nisha",
+        pronunciation: "आह , उयीं , ज़े ऊबलीये : ज़े ऊन  पेटिट सर नोमे निशा"
+    },
+    {
+        french: "mon adresse e-mail est tusharwadekar@gmail.com",
+        english: "my email address is tusharwadekar@gmail.com",
+        pronunciation: "मौन एड्रेस इ मैल ए तूषार वाडेकर आरोबाझ जी मेल पॉई कॉम"
+    },
+    {
+        french: "mon numéro de GSM est 491 189 999",
+        english: "my mobile number is 491 189 999",
+        pronunciation: "मौन नूमेरो दे जीएसेम ए कै त्रो सौ कै त्रो वांज - सौ कै त्रो वां नफ - नफ सौ कै त्रो वां दीस नफ"
+    }
+
+]
+window.introduceMyself = introduceMyself;
