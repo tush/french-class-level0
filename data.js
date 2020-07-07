@@ -447,6 +447,387 @@ const introduceMyself = [
         pronunciation: "मौन नूमेरो दे जीएसेम ए कै त्रो सौ कै त्रो वांज - सौ कै त्रो वां नफ - नफ सौ कै त्रो वां दीस नफ"
     }
 
-    
+
 ]
 window.introduceMyself = introduceMyself;
+
+
+
+const numberList = [
+    {
+        digit: "0",
+        french: "zéro",
+        pronunciation: "zay-ro"
+    },
+    {
+        digit: "1",
+        french: "un",
+        pronunciation: "uh"
+    },
+    {
+        digit: "2",
+        french: "deux",
+        pronunciation: "duhr"
+    },
+    {
+        digit: "3",
+        french: "trois",
+        pronunciation: "twa"
+    },
+    {
+        digit: "4",
+        french: "quatre",
+        pronunciation: "katr"
+    },
+    {
+        digit: "5",
+        french: "cinq",
+        pronunciation: "sank"
+    },
+    {
+        digit: "6",
+        french: "six",
+        pronunciation: "sees"
+    },
+    {
+        digit: "7",
+        french: "sept",
+        pronunciation: "set"
+    },
+    {
+        digit: "8",
+        french: "huit",
+        pronunciation: "weet"
+    },
+    {
+        digit: "9",
+        french: "neuf",
+        pronunciation: "nurf"
+    },
+    {
+        digit: "10",
+        french: "dix",
+        pronunciation: "dees"
+    },
+    {
+        digit: "11",
+        french: "onze",
+        pronunciation: "onz"
+    },
+    {
+        digit: "12",
+        french: "douze",
+        pronunciation: "dooz"
+    },
+    {
+        digit: "13",
+        french: "treize",
+        pronunciation: "trez"
+    },
+    {
+        digit: "14",
+        french: "quatorze",
+        pronunciation: "katorz"
+    },
+    {
+        digit: "15",
+        french: "quinze",
+        pronunciation: "kanz"
+    },
+    {
+        digit: "16",
+        french: "seize",
+        pronunciation: "sez"
+    },
+    {
+        digit: "17",
+        french: "dix-sept",
+        pronunciation: "dee-set"
+    },
+    {
+        digit: "18",
+        french: "dix-huit",
+        pronunciation: "dees-weet"
+    },
+    {
+        digit: "19",
+        french: "dix-neuf",
+        pronunciation: "dees-nurf"
+    },
+    {
+        digit: "20",
+        french: "vingt",
+        pronunciation: "van"
+    },
+    {
+        digit: "21",
+        french: "vingt et un",
+        pronunciation: "vant-ay-uh"
+    },
+    {
+        digit: "22",
+        french: "vingt-deux",
+        pronunciation: "van-duhr"
+    },
+    {
+        digit: "30",
+        french: "trente",
+        pronunciation: "tront"
+    },
+    {
+        digit: "31",
+        french: "Trente et un",
+        pronunciation: "tront ay-uh"
+    },
+    {
+        digit: "32",
+        french: "Trente-deux",
+        pronunciation: "tront-durh"
+    },
+    {
+        digit: "40",
+        french: "quarante",
+        pronunciation: "karont"
+    },
+    {
+        digit: "41",
+        french: "quarante et un",
+        pronunciation: "karont-ay-uh"
+    },
+    {
+        digit: "42",
+        french: "quarante-deux",
+        pronunciation: "karont-deux"
+    },
+    {
+        digit: "50",
+        french: "cinquante",
+        pronunciation: "sank-ont"
+    },
+    {
+        digit: "51",
+        french: "cinquante et un",
+        pronunciation: "sank-ont-ay-uh"
+    },
+    {
+        digit: "52",
+        french: "cinquante-deux",
+        pronunciation: "sank-ont-deux"
+    },
+    {
+        digit: "60",
+        french: "soixante",
+        pronunciation: "swa-sont"
+    },
+    {
+        digit: "61",
+        french: "soixante et un",
+        pronunciation: "swa-sont-ay-un"
+    },
+    {
+        digit: "62",
+        french: "soixante-deux",
+        pronunciation: "swa-sont-dur"
+    },
+    {
+        digit: "70",
+        french: "septante",
+        pronunciation: "sep-ta-nt"
+    },
+    {
+        digit: "71",
+        french: "septante et un",
+        pronunciation: "sep-ta-nt-ay-un"
+    },
+    {
+        digit: "72",
+        french: "septante deux",
+        pronunciation: "sep-ta-nt-dur"
+    },
+    {
+        digit: "80",
+        french: "quatre-vingts",
+        pronunciation: "kat-ra-van"
+    },
+    {
+        digit: "81",
+        french: "quatre-vingt-un",
+        pronunciation: "kat-ra-vant-uh"
+    },
+    {
+        digit: "82",
+        french: "quatre-vingt-deux",
+        pronunciation: "kat-ra-van-dur"
+    },
+    {
+        digit: "90",
+        french: "nonante",
+        pronunciation: "no-na-nt"
+    },
+    {
+        digit: "91",
+        french: "nonante-un",
+        pronunciation: "no-na-nt-uh"
+    },
+    {
+        digit: "92",
+        french: "nonante-deux",
+        pronunciation: "no-na-nt-dur"
+    },
+    {
+        digit: "100",
+        french: "cent",
+        pronunciation: "son"
+    },
+    {
+        digit: "101",
+        french: "cent-un",
+        pronunciation: "son-uh"
+    },
+    {
+        digit: "102",
+        french: "cent-deux",
+        pronunciation: "son-deux"
+    },
+    {
+        digit: "200",
+        french: "deux cent",
+        pronunciation: "deux son"
+    },
+    {
+        digit: "201",
+        french: "deux cent-un",
+        pronunciation: "deux son-uh"
+    },
+    {
+        digit: "202",
+        french: "deux cent-deux",
+        pronunciation: "deux son-dur"
+    },
+    {
+        digit: "300",
+        french: "trois cent",
+        pronunciation: "twa son"
+    },
+    {
+        digit: "301",
+        french: "trois cent-un",
+        pronunciation: "twa-so-uh"
+    },
+    {
+        digit: "302",
+        french: "trois cent-deux",
+        pronunciation: "twa-son-dur"
+    },
+    {
+        digit: "400",
+        french: "quatre cent",
+        pronunciation: "katr son"
+    },
+    {
+        digit: "401",
+        french: "quatre cent-un",
+        pronunciation: "katr-so-uh"
+    },
+    {
+        digit: "402",
+        french: "quatre cent-deux",
+        pronunciation: "katr-son-dur"
+    },
+    {
+        digit: "500",
+        french: "cinq cent",
+        pronunciation: "sank son"
+    },
+    {
+        digit: "501",
+        french: "cinq cent-un",
+        pronunciation: "sank-so-uh"
+    },
+    {
+        digit: "502",
+        french: "cinq cent-deux",
+        pronunciation: "sank-son-dur"
+    },
+    {
+        digit: "600",
+        french: "six cent",
+        pronunciation: "sees son"
+    },
+    {
+        digit: "601",
+        french: "six cent-un",
+        pronunciation: "sees-so-uh"
+    },
+    {
+        digit: "602",
+        french: "six cent-deux",
+        pronunciation: "sees-son-dur"
+    },
+    {
+        digit: "700",
+        french: "sept cent",
+        pronunciation: "set son"
+    },
+    {
+        digit: "701",
+        french: "sept cent-un",
+        pronunciation: "set-so-uh"
+    },
+    {
+        digit: "702",
+        french: "sept cent-deux",
+        pronunciation: "set-son-dur"
+    },
+    {
+        digit: "800",
+        french: "huit cent",
+        pronunciation: "weet son"
+    },
+    {
+        digit: "801",
+        french: "huit cent-un",
+        pronunciation: "weet-so-uh"
+    },
+    {
+        digit: "802",
+        french: "huit cent-deux",
+        pronunciation: "weet-son-dur"
+    },
+    {
+        digit: "900",
+        french: "neuf cent",
+        pronunciation: "nurf son"
+    },
+    {
+        digit: "901",
+        french: "neuf cent-un",
+        pronunciation: "nurf-so-uh"
+    },
+    {
+        digit: "902",
+        french: "neuf cent-deux",
+        pronunciation: "nurf-son-dur"
+    },
+    {
+        digit: "1000",
+        french: "mille",
+        pronunciation: "mil"
+    },
+    {
+        digit: "1994",
+        french: "mille neuf cent nonante-quatre",
+        pronunciation: "mil nurf-son no-na-nt katr"
+    },
+    {
+        digit: "10000",
+        french: "dix mille",
+        pronunciation: "dees mil"
+    },
+    {
+        digit: "100000",
+        french: "cent mille",
+        pronunciation: "son mil"
+    }
+];
+window.numberList = numberList;

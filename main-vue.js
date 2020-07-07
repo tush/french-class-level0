@@ -5,5 +5,6 @@ var app = new Vue({
     howAreYou: window.howAreYou,
     classCommunication: window.classCommunication,
     introduceMyself: window.introduceMyself,
+    numberList: window.numberList,
   }
 })
