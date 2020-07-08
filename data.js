@@ -831,3 +831,148 @@ const numberList = [
     }
 ];
 window.numberList = numberList;
+
+
+const weekDays = [
+    {
+        day: "Monday",
+        french: "lundi",
+        pronunciation: "lun-dee"
+    },
+    {
+        day: "Tuesday",
+        french: "mardi",
+        pronunciation: "mar dee"
+    },
+    {
+        day: "Wednesday",
+        french: "mercredi",
+        pronunciation: "mare crer dee"
+    },
+    {
+        day: "Thursday",
+        french: "jeudi",
+        pronunciation: "zheur dee"
+    },
+    {
+        day: "Friday",
+        french: "vendredi",
+        pronunciation: "von-drer- dee"
+    },
+    {
+        day: "Saturday",
+        french: "samedi",
+        pronunciation: "sam-dee"
+    },
+    {
+        day: "Today",
+        french: "aujourd'hui",
+        pronunciation: "oh-zhoor dwee"
+    },
+    {
+        day: "Yesterday",
+        french: "hier",
+        pronunciation: "ee-air"
+    },
+    {
+        day: "Tomorrow",
+        french: "demain",
+        pronunciation: "deur-ma"
+    },
+    {
+        day: "The next day",
+        french: "le lendemain",
+        pronunciation: "leu londer man"
+    },
+    {
+        day: "The previous day",
+        french: "la veille",
+        pronunciation: "la vaye"
+    }
+];
+
+
+window.weekDays = weekDays;
+
+const timeList = [
+    {
+        time: "1h00",
+        french: "une heure",
+        pronunciation: ""
+    },
+    {
+        time: "2h00",
+        french: "deux heures",
+        pronunciation: ""
+    },
+    {
+        time: "3h15",
+        french: "trois heures et quart",
+        pronunciation: ""
+    },
+    {
+        time: "4h30",
+        french: "quatre heures et demie",
+        pronunciation: ""
+    },
+    {
+        time: "4h45",
+        french: "quatre heures quarante-cinq",
+        pronunciation: ""
+    },
+    {
+        time: "8 a.m.",
+        french: "huit heures du matin",
+        pronunciation: ""
+    },
+    {
+        time: "5 p.m.",
+        french: "cinq heures de l’après-midi",
+        pronunciation: ""
+    },
+    {
+        time: "8 p.m.",
+        french: "huit heures du soir",
+        pronunciation: ""
+    },
+    {
+        time: "9h45",
+        french: "dix heures moins le quart",
+        pronunciation: ""
+    }
+];
+window.timeList = timeList;
+
+const schedule = [
+    {
+        french: "le martin je me leve vers 6h",
+        english: "in morning I get up around 6am",
+        pronunciation: "le mata ja ma live ver sees hur"
+    },
+    {
+        french: "plus je me brosse les dents",
+        english: "then I brush my teeth",
+        pronunciation: "plu ja ma bro le dent"
+    },
+    {
+        french: "plus je prends une douche",
+        english: "then I take shower",
+        pronunciation: "plu ja pre u dusch"
+    },
+    {
+        french: "plus je prends un cafe",
+        english: "then I have a coffee",
+        pronunciation: "plu ja pre u cafe"
+    },
+    {
+        french: "plus je pars au travail a 7h30",
+        english: "then I leave for work at 7.30am",
+        pronunciation: "plu ja pa u thravay a set hur dimi"
+    },
+    {
+        french: "je reviens du travail vers 18h",
+        english: "I come back from work around 6p.m.",
+        pronunciation: "j reva du thravay ver dees-weet hur"
+    }
+];
+window.schedule = schedule;

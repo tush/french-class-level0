@@ -6,5 +6,8 @@ var app = new Vue({
     classCommunication: window.classCommunication,
     introduceMyself: window.introduceMyself,
     numberList: window.numberList,
+    weekDays: window.weekDays,
+    timeList: window.timeList,
+    schedule: window.schedule,
   }
 })
