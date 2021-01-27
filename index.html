@@ -182,6 +182,43 @@
             </tbody>
         </table>
 
+
+        <h2>Activities</h2>
+        <table class="table">
+            <thead class="thead-light">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">French</th>
+                <th scope="col">How to read</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr v-for="(dataItem, index) in activity">
+                <th scope="row">{{index+1}}</th>
+                <td>
+                    <p class="lead">{{dataItem.french}}</p>
+                </td>
+                <td>
+                    <p>{{dataItem.english}}</p>
+                    <p>{{dataItem.pronunciation}}</p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <h2>La Temperatur</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col" v-for="(dataItem, index) in temperatur">
+                    <div style="width: 150px; border-bottom-style: solid" >
+                        <p>{{dataItem.french}}</p>
+                        <p>{{dataItem.english}}</p>
+                        <p>{{dataItem.pronunciation}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <!-- <div id="like_button_container"></div> -->
 

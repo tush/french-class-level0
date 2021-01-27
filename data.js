@@ -976,3 +976,228 @@ const schedule = [
     }
 ];
 window.schedule = schedule;
+
+
+const activity = [
+    {
+        french: "Je fais du jogging trois fois par semaine",
+        english: "I jog three times a week",
+        pronunciation: ""
+    },
+    {
+        french: "pje travaille comme consultant informatique pour banque",
+        english: "I work as an IT consultant for a bank",
+        pronunciation: ""
+    },
+    {
+        french: "plus je prends une douche",
+        english: "then I take shower",
+        pronunciation: "plu ja pre u dusch"
+    },
+    {
+        french: "plus je prends un cafe",
+        english: "then I have a coffee",
+        pronunciation: "plu ja pre u cafe"
+    },
+    {
+        french: "plus je pars au travail a 7h30",
+        english: "then I leave for work at 7.30am",
+        pronunciation: "plu ja pa u thravay a set hur dimi"
+    },
+    {
+        french: "je reviens du travail vers 18h",
+        english: "I come back from work around 6p.m.",
+        pronunciation: "j reva du thravay ver dees-weet hur"
+    }
+];
+window.activity = activity;
+
+
+const temperatur = [
+    {
+        french: "Il fait beau",
+        english: "The weather is nice",
+        pronunciation: ""
+    },
+    {
+        french: "Il y a du soleil",
+        english: "There is the sun",
+        pronunciation: ""
+    },
+    {
+        french: "Le soleil brille",
+        english: "The sun is shining",
+        pronunciation: ""
+    },
+    {
+        french: "Le ciel est bleu",
+        english: "The sky is blue",
+        pronunciation: ""
+    },
+    {
+        french: "Il y a quelques nuages (un nuage)",
+        english: "There are some clouds (a cloud)",
+        pronunciation: ""
+    },
+    {
+        french: "Il fait bon",
+        english: "It's nice out",
+        pronunciation: ""
+    },
+    {
+        french: "Il fait doux",
+        english: "It is mild",
+        pronunciation: ""
+    },
+    {
+        french: "Il fait chaud",
+        english: "It's hot",
+        pronunciation: ""
+    },
+    {
+        french: "Il fait 30 degres",
+        english: "It's 30 degrees",
+        pronunciation: ""
+    },
+    {
+        french: "Le mauvais temps",
+        english: "Bad weather",
+        pronunciation: "plu ja pa u thravay a set hur dimi"
+    },
+    {
+        french: "Il ne fait pas beau : il fait mauvais",
+        english: "The weather is not good: it is bad",
+        pronunciation: ""
+    },
+    {
+        french: "Il y a des nuages",
+        english: "There are clouds",
+        pronunciation: ""
+    },
+    {
+        french: "Il fait gris",
+        english: "It's gray",
+        pronunciation: ""
+    },
+    {
+        french: "c'est nuageux",
+        english: "it's cloudy",
+        pronunciation: ""
+    },
+    {
+        french: "c'est couvert",
+        english: "it's covered",
+        pronunciation: ""
+    },
+    {
+        french: "Il pleut",
+        english: "It is raining",
+        pronunciation: ""
+    },
+    {
+        french: "Il y a de la pluie",
+        english: "there is rain",
+        pronunciation: ""
+    },
+    {
+        french: "il fait humide",
+        english: "it's humid",
+        pronunciation: ""
+    },
+    {
+        french: "Il drache (be)",
+        english: "It is raining heavy",
+        pronunciation: ""
+    },
+    {
+        french: "Il y a du brouillard",
+        english: "There is fog",
+        pronunciation: ""
+    }
+
+
+
+
+    ,
+    {
+        french: "Le froid / la neige",
+        english: "There are clouds",
+        pronunciation: ""
+    },
+    {
+        french: "Il neige",
+        english: "It's gray",
+        pronunciation: ""
+    },
+    {
+        french: "cla neige tombe",
+        english: "it's cloudy",
+        pronunciation: ""
+    },
+    {
+        french: "Il fait froid",
+        english: "it's covered",
+        pronunciation: ""
+    },
+    {
+        french: "Il gele",
+        english: "It is raining",
+        pronunciation: ""
+    },
+    {
+        french: "Il fait moins dix degres",
+        english: "there is rain",
+        pronunciation: ""
+    },
+    {
+        french: "Il y a du verglas sur les routes, attention",
+        english: "it's humid",
+        pronunciation: ""
+    },
+    {
+        french: "La tempete",
+        english: "",
+        pronunciation: ""
+    },
+    {
+        french: "Il y a une tempte",
+        english: "",
+        pronunciation: ""
+    },
+    {
+        french: "Il y a du vent",
+        english: "",
+        pronunciation: ""
+    },
+    {
+        french: "Il y a beaucoup de vent",
+        english: "",
+        pronunciation: ""
+    },
+    {
+        french: "Il y a de l'orage",
+        english: "",
+        pronunciation: ""
+    },
+    {
+        french: "Il y a du tonnerre",
+        english: "",
+        pronunciation: ""
+    },
+    {
+        french: "Il grele",
+        english: "",
+        pronunciation: ""
+    },
+    {
+        french: "Il y a des giboulees",
+        english: "There is fog",
+        pronunciation: ""
+    },
+    {
+        french: "Il y a une averse",
+        english: "There is fog",
+        pronunciation: ""
+    }
+];
+window.temperatur = temperatur;

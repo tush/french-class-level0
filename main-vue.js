@@ -9,5 +9,7 @@ var app = new Vue({
     weekDays: window.weekDays,
     timeList: window.timeList,
     schedule: window.schedule,
+    activity: window.activity,
+    temperatur: window.temperatur,
   }
 })
