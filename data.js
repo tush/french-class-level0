@@ -1527,6 +1527,101 @@ const activities = [
         french: "Je me détends le dimanche, regarde la télévision",
         english: "I relax on Sunday, watch TV",
         pronunciation: ""
+    },
+    {
+        french: "",
+        english: "",
+        pronunciation: ""
+    },
+    {
+        french: "Je me suis reveille tot le samedi matin.",
+        english: "I woke up early on Saturday morning.",
+        pronunciation: ""
+    },
+    {
+        french: "Je suis alle faire du jogging",
+        english: "I went jogging",
+        pronunciation: ""
+    },
+    {
+        french: "Et puis je ai regarde un film a la tele. ",
+        english: "And then I watched a movie on TV.        ",
+        pronunciation: ""
+    },
+    {
+        french: "Je ai joue au badminton dans l'apres-midi.        ",
+        english: "I played badminton in the afternoon.        ",
+        pronunciation: ""
+    },
+    {
+        french: "",
+        english: "",
+        pronunciation: ""
+    },
+    {
+        french: "Le dimanche, J'ai recontre mon ami  Aymen.",
+        english: "On Sunday, I met my friend Aymen.        ",
+        pronunciation: ""
+    },
+    {
+        french: "Ensuit , J'ai dejeune avec lui.",
+        english: "Then I had lunch with him.",
+        pronunciation: ""
+    },
+    {
+        french: "Nous avons discute de certain projects d'importance",
+        english: "We discussed some important projects",
+        pronunciation: ""
+    },
+    {
+        french: "Je ai parle au mon pere et a ma mere dans la soiree.",
+        english: "I spoke to my father and to my mother in the evening",
+        pronunciation: ""
+    },
+    {
+        french: "Nous avons eu dormi tot dans la nuit",
+        english: "We had slept early in the night",
+        pronunciation: ""
     }
 ];
 window.activities = activities;
+
+
+const accepte = [
+    {
+        french: "Est-ce que tu veux dîner avec moi ?",
+        english: "do you want to have dinner with me",
+        pronunciation: ""
+    },
+    {
+        french: "Est-ce que vous voulez jouer au tennis avec nous ?",
+        english: "Do you want to play tennis with us",
+        pronunciation: ""
+    },
+    {
+        french: "Je veux bien",
+        english: "OK, I’d love to",
+        pronunciation: ""
+    },
+    {
+        french: "Oui, je veux bien aller au cinéma avec toi, merci.",
+        english: "Yes, I want to go to the movies with you, thank you.",
+        pronunciation: ""
+    },
+    {
+        french: "Non, je ne veux pas",
+        english: "No, I don’t want to",
+        pronunciation: ""
+    },
+    {
+        french: "Non, désolée, je ne peux pas dîner avec toi ce soir. J’ai déjà des projets",
+        english: "No, sorry, I can't have dinner with you tonight. I already have plans",
+        pronunciation: ""
+    },
+    {
+        french: "D’accord, à quelle heure ?",
+        english: "Okay, what time?",
+        pronunciation: ""
+    }
+];
+window.accepte = accepte;

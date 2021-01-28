@@ -16,5 +16,6 @@ var app = new Vue({
     letter2: window.letter2,
     morning: window.morning,
     activities: window.activities,
+    accepte: window.accepte,
   }
 })
