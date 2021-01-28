@@ -1625,3 +1625,53 @@ const accepte = [
     }
 ];
 window.accepte = accepte;
+
+
+const email = [
+    {
+        french: "Salut Marion",
+        english: "Hi Marion",
+        pronunciation: ""
+    },
+    {
+        french: "Comment ca va?",
+        english: "How is it going?",
+        pronunciation: ""
+    },
+    {
+        french: "Qu'est-ce que tu as fait ce week-end? ",
+        english: "What did you do this weekend?",
+        pronunciation: ""
+    },
+    {
+        french: "Moi, je suis allee au festival de la Musique",
+        english: "Me, I went to the Music festival.",
+        pronunciation: ""
+    },
+    {
+        french: "il y avait du mondee",
+        english: "there were a lot of people",
+        pronunciation: ""
+    },
+    {
+        french: "mais il faisait genial",
+        english: "but it was great        ",
+        pronunciation: ""
+    },
+    {
+        french: "et hier, on est alle au chateau de la",
+        english: "and yesterday, we went to the chateau de la",
+        pronunciation: ""
+    },
+    {
+        french: "c'etait super ",
+        english: "It was great        ",
+        pronunciation: ""
+    },
+    {
+        french: "A bientot,",
+        english: "See you soon",
+        pronunciation: ""
+    }
+];
+window.email = email;

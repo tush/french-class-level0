@@ -359,6 +359,30 @@
             </tr>
             </tbody>
         </table>
+
+        <h2>Email</h2>
+        <table class="table">
+            <thead class="thead-light">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">French</th>
+                <th scope="col">How to read</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr v-for="(dataItem, index) in email">
+                <th scope="row">{{index+1}}</th>
+                <td>
+                    <p class="lead">{{dataItem.french}}</p>
+                </td>
+                <td>
+                    <p>{{dataItem.english}}</p>
+                    <p>{{dataItem.pronunciation}}</p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
     </div>
     <!-- <div id="like_button_container"></div> -->
 
