@@ -978,41 +978,6 @@ const schedule = [
 window.schedule = schedule;
 
 
-const activity = [
-    {
-        french: "Je fais du jogging trois fois par semaine",
-        english: "I jog three times a week",
-        pronunciation: ""
-    },
-    {
-        french: "pje travaille comme consultant informatique pour banque",
-        english: "I work as an IT consultant for a bank",
-        pronunciation: ""
-    },
-    {
-        french: "plus je prends une douche",
-        english: "then I take shower",
-        pronunciation: "plu ja pre u dusch"
-    },
-    {
-        french: "plus je prends un cafe",
-        english: "then I have a coffee",
-        pronunciation: "plu ja pre u cafe"
-    },
-    {
-        french: "plus je pars au travail a 7h30",
-        english: "then I leave for work at 7.30am",
-        pronunciation: "plu ja pa u thravay a set hur dimi"
-    },
-    {
-        french: "je reviens du travail vers 18h",
-        english: "I come back from work around 6p.m.",
-        pronunciation: "j reva du thravay ver dees-weet hur"
-    }
-];
-window.activity = activity;
-
-
 const temperatur = [
     {
         french: "Il fait beau",
@@ -1240,3 +1205,328 @@ const taches = [
     }
 ];
 window.taches = taches;
+
+
+const frequence = [
+    {
+        french: "de temps en temps",
+        english: "sometimes",
+        pronunciation: ""
+    },
+    {
+        french: "souvent",
+        english: "often",
+        pronunciation: ""
+    },
+    {
+        french: "tous les week-ends",
+        english: "every weekend",
+        pronunciation: ""
+    },
+    {
+        french: "tout le temps",
+        english: "All the time",
+        pronunciation: ""
+    },
+    {
+        french: "Je va souvent chercher les enfants a l'ecole",
+        english: "I often picks up the children from school",
+        pronunciation: ""
+    },
+    {
+        french: "On fait les courses ensemble tous les week-ends",
+        english: "We shop together every weekend",
+        pronunciation: ""
+    },
+    {
+        french: "On ne repasse jamais",
+        english: "We never come back",
+        pronunciation: ""
+    },
+    {
+        french: "Paul lit tout le temps. Il a toujours un livre dans les mains",
+        english: "Paul reads all the time. He always has a book in his hands",
+        pronunciation: ""
+    },
+    {
+        french: "Je cours de temps en temps",
+        english: "I run from time to time",
+        pronunciation: ""
+    }
+];
+window.frequence = frequence;
+
+
+const letter1 = [
+    {
+        french: "Bonjour ma petite Mamie,",
+        english: "Hello my little grandma,",
+        pronunciation: ""
+    },
+    {
+        french: "Nous passons de super vacances avec les parents Et Léa.Le Maroc,",
+        english: "We have a great holiday with parents Et Léa.",
+        pronunciation: ""
+    },
+    {
+        french: "Ça me plaÎt!",
+        english: "I like it!",
+        pronunciation: ""
+    },
+    {
+        french: "Il fait très Chaud et l’air est sec.",
+        english: "It is very hot and the air is dry",
+        pronunciation: ""
+    },
+    {
+        french: "Le vendu désert apporte du sable dans la ville: ça grate….Marrakech est une ville très animée et joyeuse.",
+        english: "The desert sold brings sand to the city: it grates…. Marrakech is a very lively and joyful city.",
+        pronunciation: ""
+    },
+    {
+        french: "Nous sommes allés au souk.  :   ça sent bon les épices  partout",
+        english: "We went to the souk. : it smells of spices everywhere.",
+        pronunciation: ""
+    },
+    {
+        french: "J’ai mangé de la tanjia, un  plat avec de la viande. ",
+        english: "I ate tanjia, a dish with meat.",
+        pronunciation: ""
+    },
+    {
+        french: "Délicieux !  Et nous sommes allés faire une promenade en chameau. : c’est doux…. On a vu des paysages magnifiques ! ",
+        english: "Delicious ! And we went for a camel ride. : it is soft…. We saw magnificent landscapes! ",
+        pronunciation: ""
+    },
+    {
+        french: "Hier,un festival a commencé. ",
+        english: "Yesterday a festival started. ",
+        pronunciation: ""
+    },
+    {
+        french: "C’est génial, on a avec des vêtements colorés.",
+        english: "It's great, we have colorful clothes.",
+        pronunciation: ""
+    },
+    {
+        french: "J’ai beaucoup aimé. ",
+        english: "I loved. ",
+        pronunciation: ""
+    },
+    {
+        french: "Gros bisous et à bientôt,",
+        english: "Big kisses and see you soon,",
+        pronunciation: ""
+    }
+];
+window.letter1 = letter1;
+
+
+
+const letter2 = [
+    {
+        french: "Ma chère Louise",
+        english: "My dear Louise",
+        pronunciation: ""
+    },
+    {
+        french: "Ta jolie carte de Marrakech est bien arrivée.",
+        english: "Your pretty map of Marrakech has arrived.",
+        pronunciation: ""
+    },
+    {
+        french: "Moi, je t’écris de Saint-Jean-de-Luz.",
+        english: "I'm writing to you from Saint-Jean-de-Luz.",
+        pronunciation: ""
+    },
+    {
+        french: "je suis contente, il n’y a pas beaucoup de touristes : les rues sont calmes ! ",
+        english: "I'm happy, there aren't many tourists: the streets are quiet! ",
+        pronunciation: ""
+    },
+    {
+        french: "Mardi, nous sommes allées a la plage.",
+        english: "Tuesday we went to the beach.",
+        pronunciation: ""
+    },
+    {
+        french: "Nous nous sommes baignées dans la mer, mais j’ai eu froid : je suis vite sortie de l’eau ! ",
+        english: "We bathed in the sea, but I got cold: I quickly got out of the water!",
+        pronunciation: ""
+    },
+    {
+        french: "Nous allons au restaurant tous les jours… c’est bon, mais le piment d’Espelette, ça pique !",
+        english: "We go to a restaurant every day ... it's good, but Espelette pepper stings!",
+        pronunciation: ""
+    },
+    {
+        french: "Ce week-end, nous avons fait une balade en bateau. ",
+        english: "This weekend we took a boat ride. ",
+        pronunciation: ""
+    },
+    {
+        french: "Au milieu del’ocean c’est silencieux.",
+        english: "In the middle of the ocean it is silent.  ",
+        pronunciation: ""
+    },
+    {
+        french: "Marie et moi, nous avons pris un coup de soleil ! ",
+        english: "Marie and I were sunburned! ",
+        pronunciation: ""
+    },
+    {
+        french: "Maintenant, ça brûle….",
+        english: "Now it's burning….",
+        pronunciation: ""
+    },
+    {
+        french: "Je t’embrasse très fort,",
+        english: "I hug you strongly,",
+        pronunciation: ""
+    }
+];
+window.letter2 = letter2;
+
+
+
+
+
+
+const morning = [
+    {
+        french: "10 raisons de se lever le matin",
+        english: "10 reasons to get up in the morning",
+        pronunciation: ""
+    },
+    {
+        french: "1. Penser au petit-déjeuner ",
+        english: "1. Think about breakfast",
+        pronunciation: ""
+    },
+    {
+        french: "humm quand je me réveille, ca sent bon le café",
+        english: "hmm when I wake up it smells like coffee",
+        pronunciation: ""
+    },
+    {
+        french: "2. S'etirer comme un chat ",
+        english: "2. Stretch like a cat",
+        pronunciation: ""
+    },
+    {
+        french: "je ne me réveille pas en 5 secondes",
+        english: "I don't wake up in 5 seconds",
+        pronunciation: ""
+    },
+    {
+        french: "3. Regarder mes messages sur mon portable ",
+        english: "3. Watch my messages on my mobile",
+        pronunciation: ""
+    },
+    {
+        french: "quand je me leve le matin, c'est la première chose que je fais",
+        english: "when I wake up in the morning it's the first thing I do",
+        pronunciation: ""
+    },
+    {
+        french: "4. Prender le temps de se doucher",
+        english: "4. Take the time to shower",
+        pronunciation: ""
+    },
+    {
+        french: "ce n’est pas très écologique mais ça rechauffe",
+        english: "it is not very ecological but it heats up",
+        pronunciation: ""
+    },
+    {
+        french: "Mettre mes vêtements préférés  ",
+        english: "5. Put on my favorite clothes ",
+        pronunciation: ""
+    },
+    {
+        french: "mes enfants s'habillent en 5 minutes ",
+        english: "my kids get dressed in 5 minutes",
+        pronunciation: ""
+    },
+    {
+        french: "6. Prendre son petit-déjeuner ",
+        english: "6. Eat breakfast",
+        pronunciation: ""
+    },
+    {
+        french: "je déteste commencer ma journée sans prendre un bon café ",
+        english: "I hate to start my day without having a good coffee",
+        pronunciation: ""
+    },
+    {
+        french: "7. Se brosser les dents ",
+        english: "7. Brush your teeth",
+        pronunciation: ""
+    },
+    {
+        french: "j'aime bien me brosser les dents avant et après le petit-déjeuner",
+        english: "I like to brush my teeth before and after breakfast",
+        pronunciation: ""
+    },
+    {
+        french: "9. se Préparer pour aller travail ",
+        english: "9.Prepare for work",
+        pronunciation: ""
+    },
+    {
+        french: "j'aime bien regarder dans mon sac  si j'ai toutes mes affaires (mes clés, mon billet de metro, mon téléphone) je déteste oublier quelque chose",
+        english: "I like to look in my bag if I have all my things (my keys, my metro ticket, my phone) i hate forgetting something",
+        pronunciation: ""
+    },
+    {
+        french: "10. Fermer la porte a cle et penser que c'est une belle journée bien rythmee",
+        english: "10. Lock the door and think it's a nice, well-paced day",
+        pronunciation: ""
+    },
+    {
+        french: "j'emmene les enfants à l'école, je vais au travail. je dejune avec une copin. ",
+        english: "I take the children to school, I go to work. I have lunch with a friend.",
+        pronunciation: ""
+    },
+    {
+        french: "Je rentre le soir a la maison… et puis, finalement, je me couche ",
+        english: "I come home at night ... and then, finally, I go to bed",
+        pronunciation: ""
+    }
+];
+window.morning = morning;
+
+
+const activities = [
+    {
+        french: "Je fais du jogging tous les week-ends",
+        english: "I jog every weekend        ",
+        pronunciation: ""
+    },
+    {
+        french: "J'aime jouer aux échecs tous les jours",
+        english: "I like to play chess everyday",
+        pronunciation: ""
+    },
+    {
+        french: "Je va souvent chercher les enfants a l'ecole        ",
+        english: "I often picks up the children from school",
+        pronunciation: ""
+    },
+    {
+        french: "je fait les courses tous les week-ends",
+        english: "I do the shopping every weekend",
+        pronunciation: ""
+    },
+    {
+        french: "je S'occuper du linge tous les week-ends",
+        english: "I take care of the laundry every weekend",
+        pronunciation: ""
+    },
+    {
+        french: "Je me détends le dimanche, regarde la télévision",
+        english: "I relax on Sunday, watch TV",
+        pronunciation: ""
+    }
+];
+window.activities = activities;

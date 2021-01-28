@@ -1,17 +1,6 @@
 # french-class-level0
 
 
-Bonjour ma petite Mamie,
-Nous passons de super vacances avec les parents Et Léa.Le Maroc,Ça me plaÎt! Il fait très Chaud et l’air est sec. Le vendu désert apporte du sable dans la ville: ça grate….Marrakech est une ville très animée et joyeuse.Nous sommes allés au souk.  :   ça sent bon les épices  partout . J’ai mangé de la tanjia, un  plat avec de la viande. Délicieux !  Et nous sommes allés faire une promenade en chameau. : c’est doux…. On a vu des paysages magnifiques ! Hier,un festival a commencé. C’est génial, on a avec des vêtements colorés. J’ai beaucoup aimé. 
-Gros bisous et à bientôt,
-Louise
-
-
-Ma chère Louise,
-Ta jolie carte de Marrakech est bien arrivée. Moi, je t’écris de Saint-Jean-de-Luz.je suis contente, il n’y a pas beaucoup de touristes : les rues sont calmes ! Mardi, nous sommes allées a la plage. Nous nous sommes baignées dans la mer, mais j’ai eu froid : je suis vite sortie de l’eau ! Nous allons au restaurant tous les jours… c’est bon, mais le piment d’Espelette, ça pique ! Ce week-end, nous avons fait une balade en bateau. Au milieu del’ocean c’est silencieux. Marie et moi, nous avons pris un coup de soleil ! Maintenant, ça brûle….
-
-Je t’embrasse très fort,
-Mamie
 
 
 
