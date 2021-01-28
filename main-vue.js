@@ -11,5 +11,6 @@ var app = new Vue({
     schedule: window.schedule,
     activity: window.activity,
     temperatur: window.temperatur,
+    taches: window.taches,
   }
 })

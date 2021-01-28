@@ -1062,7 +1062,7 @@ const temperatur = [
     {
         french: "Le mauvais temps",
         english: "Bad weather",
-        pronunciation: "plu ja pa u thravay a set hur dimi"
+        pronunciation: ""
     },
     {
         french: "Il ne fait pas beau : il fait mauvais",
@@ -1113,91 +1113,130 @@ const temperatur = [
         french: "Il y a du brouillard",
         english: "There is fog",
         pronunciation: ""
-    }
-
-
-
-
-    ,
+    },
     {
         french: "Le froid / la neige",
-        english: "There are clouds",
+        english: "Cold / snow",
         pronunciation: ""
     },
     {
         french: "Il neige",
-        english: "It's gray",
+        english: "It's snowing",
         pronunciation: ""
     },
     {
         french: "cla neige tombe",
-        english: "it's cloudy",
+        english: "the snow is falling",
         pronunciation: ""
     },
     {
         french: "Il fait froid",
-        english: "it's covered",
+        english: "It's cold",
         pronunciation: ""
     },
     {
         french: "Il gele",
-        english: "It is raining",
+        english: "It is freezing",
         pronunciation: ""
     },
     {
         french: "Il fait moins dix degres",
-        english: "there is rain",
+        english: "It's minus ten degrees",
         pronunciation: ""
     },
     {
         french: "Il y a du verglas sur les routes, attention",
-        english: "it's humid",
+        english: "There is ice on the roads, be careful",
         pronunciation: ""
     },
     {
         french: "La tempete",
-        english: "",
+        english: "Storm",
         pronunciation: ""
     },
     {
         french: "Il y a une tempte",
-        english: "",
+        english: "There is a storm",
         pronunciation: ""
     },
     {
         french: "Il y a du vent",
-        english: "",
+        english: "It's windy",
         pronunciation: ""
     },
     {
         french: "Il y a beaucoup de vent",
-        english: "",
+        english: "There's a lot of wind",
         pronunciation: ""
     },
     {
         french: "Il y a de l'orage",
-        english: "",
+        english: "There is a storm",
         pronunciation: ""
     },
     {
         french: "Il y a du tonnerre",
-        english: "",
+        english: "There is thunder",
         pronunciation: ""
     },
     {
         french: "Il grele",
-        english: "",
+        english: "It hails",
         pronunciation: ""
     },
     {
         french: "Il y a des giboulees",
-        english: "There is fog",
+        english: "There are showers",
         pronunciation: ""
     },
     {
         french: "Il y a une averse",
-        english: "There is fog",
+        english: "There is a downpour",
+        pronunciation: ""
+    },
+];
+window.temperatur = temperatur;
+
+const taches = [
+    {
+        french: "Fair la vaisselle",
+        english: "to do the dishes",
+        pronunciation: ""
+    },
+    {
+        french: "Jardiner",
+        english: "Garden",
+        pronunciation: ""
+    },
+    {
+        french: "Fair la cuisine",
+        english: "In the kitchen",
+        pronunciation: "plu ja pre u dusch"
+    },
+    {
+        french: "S'occuper du linge (lessive, repassage)",
+        english: "Take care of the laundry (laundry, ironing)",
+        pronunciation: ""
+    },
+    {
+        french: "Bricoler",
+        english: "Tinkering",
+        pronunciation: ""
+    },
+    {
+        french: "Faire les courses",
+        english: "Shopping",
+        pronunciation: ""
+    },
+    {
+        french: "S'occuper des enfants",
+        english: "Take care of children",
+        pronunciation: ""
+    },
+    {
+        french: "Faire le menage",
+        english: "To do the housework",
         pronunciation: ""
     }
 ];
-window.temperatur = temperatur;
+window.taches = taches;
